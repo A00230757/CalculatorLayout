@@ -2,7 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.CalculatorLayout" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
+<!--        @color/purple_200     below is shining gray color for colorPrimary-->
+        <item name="colorPrimary">#4c473b</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
@@ -12,5 +13,30 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="ButtonStyle_number" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="ButtonStyle_operator1" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#66ff00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="ButtonStyle_other" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#ff6347</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="TextviewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#86AD33</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+    <style name="LinearLayoutStyle" >
+        <item name="android:layout_margin">5dp</item>
     </style>
 </resources>
