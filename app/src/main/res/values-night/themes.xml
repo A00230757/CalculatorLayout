@@ -3,6 +3,8 @@
     <style name="Theme.CalculatorLayout" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
 <!--        @color/purple_200     below is shining gray color for colorPrimary-->
+        <!-- Primary brand color. -->
+        <!--        @color/purple_200     below is shining gray color for colorPrimary-->
         <item name="colorPrimary">#4c473b</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
