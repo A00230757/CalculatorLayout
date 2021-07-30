@@ -6,10 +6,10 @@
         <!--  colorPrimary changed from @color/purple_200 to #4c473b   below is shining gray color for colorPrimary-->
         <item name="colorPrimary">#4c473b</item>
 
-        <!--        colorOnSecondary changed from @color/purple_700 to #a9a9a9 dark grey-->
+        <!--        colorOnSecondary changed from @color/purple_700 to #CD5C5C indian red-->
         <item name="colorPrimaryVariant">#CD5C5C</item>
 
-<!--        colorOnPrimary changed from @color/black to #fed8b1-->
+<!--        colorOnPrimary changed from @color/black to #fed8b1 light orange-->
         <item name="colorOnPrimary">#fed8b1</item>
 
         <!-- Secondary brand color. -->
@@ -24,25 +24,29 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
 
-
+<!--this theme also including others is included in manifest file for background color of action(title) bar color-->
         <item name="android:background">#CD5C5C</item>
     </style>
 
+<!--    this style(ButtonStyle_number) is used to change buttons(numbers) text color , textstyle , textsize-->
     <style name="ButtonStyle_number" parent="@android:style/Widget.Button">
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">15dp</item>
     </style>
+    <!--    this style(ButtonStyle_operator1) is used to change buttons(operators) text color , textstyle , textsize-->
     <style name="ButtonStyle_operator1" parent="@android:style/Widget.Button">
         <item name="android:textColor">#66ff00</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">15dp</item>
     </style>
+    <!--    this style(ButtonStyle_other) is used to change buttons(CE,C,DEL) text color , textstyle , textsize-->
     <style name="ButtonStyle_other" parent="@android:style/Widget.Button">
         <item name="android:textColor">#ff6347</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">15dp</item>
     </style>
+    <!--    this style(TextviewStyle) is used to change textview(result)  color , style , size , margin bottom , layout gravity-->
     <style name="TextviewStyle" parent="@android:style/Widget.TextView">
         <item name="android:textColor">#86AD33</item>
         <item name="android:textStyle">bold</item>
@@ -50,7 +54,9 @@
         <item name="android:layout_marginBottom">25dp</item>
         <item name="android:layout_gravity">right</item>
     </style>
+<!--    this style(LinearLayoutStyle) is used for margin of main linear layout from device screen.-->
     <style name="LinearLayoutStyle" >
         <item name="android:layout_margin">5dp</item>
     </style>
+
 </resources>
