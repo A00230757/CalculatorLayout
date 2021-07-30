@@ -3,13 +3,13 @@
     <style name="Theme.CalculatorLayout" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 
         <!-- Primary brand color. -->
-        <!--  colorPrimary changed from @color/purple_200 to #4c473b   below is shining gray color for colorPrimary-->
+        <!--  colorPrimary changed from @color/purple_200 to #F4F6F6   below is shining gray color for colorPrimary-->
         <item name="colorPrimary">#F4F6F6</item>
 
-        <!--        colorOnSecondary changed from @color/purple_700 to #CD5C5C indian red-->
+        <!--        colorOnSecondary changed from @color/purple_700 to #5D6D7E indian red-->
         <item name="colorPrimaryVariant">#5D6D7E</item>
 
-        <!--        colorOnPrimary changed from @color/black to #fed8b1 light orange-->
+        <!--        colorOnPrimary changed from @color/black to #FFFFFF light orange-->
         <item name="colorOnPrimary">#FFFFFF</item>
 
         <!-- Secondary brand color. -->
@@ -17,7 +17,7 @@
 
         <item name="colorSecondaryVariant">@color/teal_200</item>
 
-        <!--        colorOnSecondary changed from @color/black to #fed8b1 light orange-->
+        <!--        colorOnSecondary changed from @color/black to #FFFFFF light orange-->
         <item name="colorOnSecondary">#FFFFFF</item>
 
         <!-- Status bar color. -->
