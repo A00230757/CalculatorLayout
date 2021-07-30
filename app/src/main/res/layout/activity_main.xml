@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--    in-line styles is used to change background color of layout,
+ style attribute is applied to View-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,11 +8,19 @@
     android:layout_height="match_parent"
     style="@style/LinearLayoutStyle"
     tools:context=".MainActivity"
+    android:background="#fed8b1"
     android:orientation="vertical">
+
+<!--    Individual styles are added to Views,
+Styles are added in themes/styles.xml and applied directly
+to Views(TextView , Button, Linear Layout-->
+
+    <!--    inline styles also added-->
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#fed8b1"
         style="@style/TextviewStyle"
         android:text="Result here" />
     <LinearLayout
